@@ -13,7 +13,7 @@ TARGET_UPSTREAM = "https://registry-1.docker.io"
 [env.production]
 name = "cloudflare-docker-proxy"
 routes = [
-  { pattern = "dockerhub.damoasis.top", custom_domain = true },
+  { pattern = "docker.damoasis.top", custom_domain = true },
   { pattern = "quey.damoasis.top", custom_domain = true },
   { pattern = "gcr.damoasis.top", custom_domain = true },
   { pattern = "k8s-gcr.damoasis.top", custom_domain = true },
